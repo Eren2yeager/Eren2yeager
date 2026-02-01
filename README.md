@@ -50,51 +50,6 @@ I'm a **Full Stack Developer** who loves building end-to-end products from datab
 
 ---
 
-## 🎯 Featured Projects
-
-### 🎵 [Web Music Player](https://fake-spotify-next.vercel.app/)
-A full-featured music streaming platform with playlists, albums, artist dashboard, and user authentication.
-- **Tech:** Next.js, Tailwind CSS, Framer Motion, NextAuth, MongoDB
-- **Features:** Artist Dashboard, User Profiles, Playlist Management
-- [View Code](https://github.com/Eren2yeager/fakeSpotifyNext)
-
-### 💬 [Online Chatting App](https://online-chatting-app-3jgs.onrender.com/)
-Real-time chat application with public/private rooms and live message updates.
-- **Tech:** Next.js, Socket.io, MongoDB, NextAuth
-- **Features:** Real-time messaging, Multiple chat rooms, User authentication
-- [View Code](https://github.com/Eren2yeager/Online-Chatting-App)
-
-### 🅿️ [Smart Parking Management System](https://smart-parking-front-end.onrender.com)
-Comprehensive parking management with AI-powered license plate detection and real-time monitoring.
-- **Tech:** Next.js, Python, FastAPI, TypeScript, MongoDB, WebRTC
-- **Features:** AI License Plate Detection, Live Camera Feeds, Mobile Streaming, Analytics
-- [Frontend Code](https://github.com/Eren2yeager/smart-parking-front-end) | [Backend Code](https://github.com/Eren2yeager/APIs-smart-parking-management-system)
-
-### 📊 [MongoDB Data Explorer](https://data-exprorer-and-analyzer-react.vercel.app/)
-Modern interface for MongoDB data exploration and analysis.
-- **Tech:** React, Express.js, Tailwind CSS, Framer Motion, MongoDB
-- **Features:** Database exploration, Collection management, Document analysis
-- [Frontend Code](https://github.com/Eren2yeager/Data-Exprorer-and-analyzer-React) | [Backend Code](https://github.com/Eren2yeager/Data-Exprorer-and-analyzer-Backend)
-
-### 🎓 [Guidora – SIH Project](https://guidora-three.vercel.app/)
-Smart India Hackathon project - Digital guidance platform for students.
-- **Tech:** Next.js, Tailwind CSS, Framer Motion, MongoDB, NextAuth
-- **Features:** Career guidance, College directory, AI recommendations, Interest quizzes
-- [View Code](https://github.com/Eren2yeager/Guidora)
-
----
-
-## 📜 Certifications
-
-- 🏆 **Frontend Developer (React)** - HackerRank
-- 🏆 **JavaScript (Intermediate)** - HackerRank
-- 🏆 **React (Basic)** - HackerRank
-- 🏆 **Node.js (Basic)** - HackerRank
-- 🏆 **SQL (Basic)** - HackerRank
-- 🏆 **CSS (Basic)** - HackerRank
-
----
-
 ## 📊 GitHub Stats
 
 <div align="center">
@@ -134,3 +89,4 @@ Smart India Hackathon project - Digital guidance platform for students.
 ⭐️ From [Eren2yeager](https://github.com/Eren2yeager)
 
 </div>
+

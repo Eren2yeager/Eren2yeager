@@ -7,7 +7,7 @@
 <a href="https://git.io/typing-svg"><img src="https://readme-typing-svg.demolab.com?font=Fira+Code&size=22&duration=3000&pause=1000&color=F75C7E&center=true&vCenter=true&multiline=true&repeat=true&width=600&height=100&lines=Building+end-to-end+products+%F0%9F%9A%80;From+database+to+UI+%F0%9F%92%BB;Real-time+%7C+WebSocket+%7C+WebRTC+%E2%9A%A1" alt="Typing SVG" /></a>
 
 <!-- Profile Views Counter with Animation -->
-<img src="https://komarev.com/ghpvc/?username=Eren2yeager&label=Profile%20Views&color=blueviolet&style=for-the-badge" alt="Profile Views" />
+[![Profile Views](https://api.visitorbadge.io/api/VisitorHit?user=Eren2yeager&repo=Eren2yeager&countColor=%237B1E7A&label=profile-views)](https://github.com/Eren2yeager)
 
 <!-- Dynamic Badges -->
 <img src="https://img.shields.io/github/followers/Eren2yeager?label=Followers&style=for-the-badge&color=blue&logo=github" alt="GitHub Followers" />
@@ -122,11 +122,16 @@ const samar = {
 ## 📊 GitHub Analytics
 
 <!-- GitHub Stats Cards -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api?username=Eren2yeager&show_icons=true&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
+
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/profile-details?username=Eren2yeager&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
+
 <img width="49%" src="https://github-readme-streak-stats.herokuapp.com/?user=Eren2yeager&theme=radical&hide_border=true" />
 
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/stats?username=Eren2yeager&theme=radical&hide_border=true&count_private=true&include_all_commits=true" />
+
+
 <!-- Language Stats -->
-<img width="49%" src="https://github-readme-stats.vercel.app/api/top-langs/?username=Eren2yeager&layout=compact&theme=radical&hide_border=true&langs_count=8" />
+<img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/repos-per-language?username=Eren2yeager&theme=radical&hide_border=true&langs_count=8" />
 
 <!-- Detailed Stats -->
 <img width="49%" src="https://github-profile-summary-cards.vercel.app/api/cards/productive-time?username=Eren2yeager&theme=radical&utcOffset=5.5" />

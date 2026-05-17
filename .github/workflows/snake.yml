@@ -1,0 +1,50 @@
+# This workflow generates a snake animation from a GitHub user's contributions graph and pushes it to a separate branch.
+# The animation is then displayed in the profile README.
+
+name: Generate Snake
+
+on:
+  # Schedule updates every 12 hours to keep the contribution grid fresh
+  schedule:
+    - cron: "0 */12 * * *"
+  # Allow manual triggering of the workflow from the Actions tab
+  workflow_dispatch:
+  # Run the workflow on every push to the main branch
+  push:
+    branches:
+    - main
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      # Step 1: Checkout the repository to the runner
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      # Step 2: Generate the snake SVGs using the Platane/snk action
+      - name: Generate Snake
+        uses: Platane/snk@v3
+        with:
+          # The GitHub user name to fetch contributions for
+          github_user_name: ${{ github.repository_owner }}
+
+          # Output files to generate. We generate both light and dark mode versions.
+          # The dark mode version uses the 'github-dark' color palette.
+          outputs: |
+            dist/github-contribution-grid-snake.svg
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+        env:
+          # GitHub Token required to fetch contribution data
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+
+      # Step 3: Push the generated SVG files to a separate 'output' branch
+      # This branch will serve the files via GitHub Pages or raw content URLs.
+      - name: Push to output branch
+        uses: crazy-max/ghaction-github-pages@v3.1.0
+        with:
+          target_branch: output
+          build_dir: dist
+        env:
+          # GitHub Token required to push changes back to the repository
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}

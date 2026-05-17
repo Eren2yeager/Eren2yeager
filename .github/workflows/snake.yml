@@ -33,11 +33,12 @@ jobs:
           # The GitHub user name to fetch contributions for
           github_user_name: ${{ github.repository_owner }}
 
-          # Output files to generate. We generate both light and dark mode versions.
-          # The dark mode version uses the 'github-dark' color palette.
+          # Professional "Radical" themed customization:
+          # - color_snake: Vibrant pink to match your profile accents
+          # - color_dots: Custom gradient of purples/blues for a modern aesthetic
           outputs: |
-            dist/github-contribution-grid-snake.svg
-            dist/github-contribution-grid-snake-dark.svg?palette=github-dark
+            dist/github-contribution-grid-snake.svg?color_snake=#fe428e&color_dots=#ebedf0,#9be9a8,#40c463,#30a14e,#216e39
+            dist/github-contribution-grid-snake-dark.svg?palette=github-dark&color_snake=#fe428e&color_dots=#161b22,#4b0082,#8a2be2,#9370db,#e6e6fa
         env:
           # GitHub Token required to fetch contribution data
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
